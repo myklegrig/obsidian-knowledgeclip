@@ -1,0 +1,21 @@
+/* Только свои классы и переменные темы Obsidian: никаких глобальных стилей. */
+
+.kc-modal .kc-video {
+  font-weight: var(--font-semibold);
+  margin-bottom: var(--size-4-2);
+  word-break: break-word;
+}
+
+.kc-modal .kc-price {
+  color: var(--text-muted);
+  font-size: var(--font-ui-small);
+  margin: var(--size-4-2) 0;
+}
+
+.kc-modal .kc-price.kc-price-short {
+  color: var(--text-warning);
+}
+
+.kc-modal .kc-wide {
+  width: 100%;
+}

@@ -1,0 +1,5 @@
+node_modules/
+# Собирается из src/ и прикладывается к релизу на GitHub, в репозитории не живёт.
+main.js
+*.js.map
+data.json

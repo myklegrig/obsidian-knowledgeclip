@@ -1,0 +1,10 @@
+{
+  "id": "knowledgeclip",
+  "name": "KnowledgeClip",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.0",
+  "description": "Paste a YouTube link, get a structured note with timestamps that jump back into the video.",
+  "author": "KnowledgeClip",
+  "authorUrl": "https://knowledgeclip.app",
+  "isDesktopOnly": false
+}

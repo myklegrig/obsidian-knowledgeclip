@@ -1,0 +1,22 @@
+{
+  "name": "obsidian-knowledgeclip",
+  "version": "0.1.0",
+  "description": "Turn YouTube links into structured, timestamped notes.",
+  "main": "main.js",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc --noEmit --skipLibCheck && node esbuild.config.mjs production",
+    "test": "node --test tests/logic.test.ts"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "builtin-modules": "^4.0.0",
+    "esbuild": "0.25.0",
+    "obsidian": "^1.8.7",
+    "tslib": "^2.6.3",
+    "typescript": "^5.6.3"
+  }
+}
